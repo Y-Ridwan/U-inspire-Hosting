@@ -1,0 +1,23 @@
+.about-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+
+}
+
+.image img {
+    width: 80%;
+    height:auto;
+}
+
+.header{
+    grid-column: 1/3;
+    background-color: green;
+    color: white;
+    
+}
+
+.why {
+    background-color: lightgreen;
+    grid-column: 2;
+}
